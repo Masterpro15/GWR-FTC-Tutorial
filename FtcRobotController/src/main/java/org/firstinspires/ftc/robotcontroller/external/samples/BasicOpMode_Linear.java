@@ -51,7 +51,7 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Basic: Linear OpMode", group="Linear OpMode")
-@Disabled
+@Disabled //This just means that it wont show up in the driver hub
 public class BasicOpMode_Linear extends LinearOpMode {
 
     // Declare OpMode members.

@@ -51,7 +51,7 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Basic: Iterative OpMode", group="Iterative OpMode")
-@Disabled
+@Disabled //This just means that it wont show up in the driver hub
 public class BasicOpMode_Iterative extends OpMode
 {
     // Declare OpMode members.

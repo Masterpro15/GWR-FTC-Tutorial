@@ -61,7 +61,7 @@ import com.qualcomm.robotcore.hardware.SwitchableLight;
  */
 
 @Autonomous(name="Robot: Auto Drive To Line", group="Robot")
-@Disabled
+@Disabled//This just means that it wont show up in the driver hub
 public class RobotAutoDriveToLine_Linear extends LinearOpMode {
 
     /* Declare OpMode members. */
