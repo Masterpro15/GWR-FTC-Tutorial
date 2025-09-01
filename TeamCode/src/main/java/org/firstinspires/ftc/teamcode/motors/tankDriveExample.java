@@ -7,10 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
-
-
 //This particular OpMode just executes a basic Tank Drive Teleop for a two wheeled robot
-
 
 @TeleOp(name="Basic Tank Drive", group="Linear OpMode")
 public class tankDriveExample extends LinearOpMode {
