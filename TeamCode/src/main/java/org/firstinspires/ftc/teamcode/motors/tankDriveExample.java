@@ -14,7 +14,6 @@ public class tankDriveExample extends LinearOpMode {
 
     // Declare the variables that you need
     //If you have more advanced java experience
-    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftDrive = null;
     private DcMotor rightDrive = null;
 
@@ -41,7 +40,6 @@ public class tankDriveExample extends LinearOpMode {
 
         // This code waits for the start button to be pressed
         waitForStart();
-        runtime.reset();
 
         // This code runs in a loop while until the stop button is pressed
         while (opModeIsActive()) {
@@ -71,7 +69,6 @@ public class tankDriveExample extends LinearOpMode {
             rightDrive.setPower(rightPower);
 
             // Show the elapsed game time and wheel power.
-            telemetry.addData("Status", "Run Time: " + runtime.toString());
             telemetry.addData("Motors", "left (%.2f), right (%.2f)", leftPower, rightPower);
             telemetry.update();
         }
