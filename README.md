@@ -1,3 +1,6 @@
+## BELOW IS THE READ-ME FROM THE OFFICAL FIRST REPO
+To find the example code, open team code ->src
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the DECODE (2025-2026) competition season.
