@@ -1,5 +1,5 @@
-## BELOW IS THE READ-ME FROM THE OFFICAL FIRST REPO
-To find the example code, open team code ->src
+## BELOW IS THE READ-ME FROM THE OFFICIAL FIRST REPO
+To find the example code, open team code -> src/main -> java/org/firstinspires/ftc/teamcode
 
 ## NOTICE
 
